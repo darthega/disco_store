@@ -1,0 +1,28 @@
+/* 
+    Document   : styles
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for project Disco Store
+*/
+
+/*General styles*/
+
+
+/*Featured album*/
+#featured-album{
+    background: #BBBBBB;
+    width: 100%;
+}
+
+/*General classes*/
+.center{
+    margin: 0 auto;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
