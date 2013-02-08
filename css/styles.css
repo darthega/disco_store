@@ -8,6 +8,7 @@
 
 /*General styles*/
 body{
+    background: url("../img/home_discstore.png") no-repeat scroll center top transparent;
     margin: 0;
     padding: 0;
 }
@@ -25,7 +26,7 @@ body{
 /* wrappers */
 
 .main-wrapper {
-  background: url("../img/home_discstore.png") no-repeat scroll center top transparent;
+  background: url("../img/bg-main.png") repeat scroll center top transparent;
   display: block;
   margin: 0 auto;
   max-width: 1024px;
