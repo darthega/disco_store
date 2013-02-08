@@ -11,7 +11,6 @@
 
 /*Featured album*/
 #featured-album{
-    background: #BBBBBB;
     width: 100%;
 }
 
@@ -20,9 +19,21 @@
     margin: 0 auto;
 }
 
+/* wrappers */
+
+.main-wrapper {
+  background: url("../img/home_discstore.png") no-repeat scroll center top transparent;
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
     zoom: 1;
     *display: inline;
 }
+
