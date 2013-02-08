@@ -7,7 +7,10 @@
 */
 
 /*General styles*/
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /*Featured album*/
 #featured-album{
@@ -36,4 +39,3 @@
     zoom: 1;
     *display: inline;
 }
-

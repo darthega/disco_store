@@ -1,0 +1,10 @@
+.main-wrapper {
+  max-width: 1024px;
+  width: 100%;
+}
+.logo {
+  display: block;
+  padding: 11px;
+  text-align: center;
+  width: auto;
+}
