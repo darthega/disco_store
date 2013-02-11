@@ -6,21 +6,26 @@
         General style sheet for project Disco Store
 */
 
+@import url('featured.css');
+@import url('home.css');
+
 /*General styles*/
+
+html {
+  font-size: 14px;
+}
+
 body{
     background: url("../img/home_discstore.png") no-repeat scroll center top transparent;
     margin: 0;
     padding: 0;
 }
 
-/*Featured album*/
-#featured-album{
-    width: 100%;
-}
-
-/*General classes*/
-.center{
-    margin: 0 auto;
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
 }
 
 /* wrappers */
@@ -33,7 +38,11 @@ body{
   width: 100%;
 }
 
-
+/*Clases*/
+.center {
+  margin: 0 auto;
+}
+  
 .inline-block{
     display: inline-block;
     vertical-align: top;
