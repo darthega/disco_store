@@ -26,7 +26,7 @@
   color: #999999;
   font-size: 1.4em;
   margin: 0;
-  padding: 0;
+  padding: 5px 0;
   text-transform: uppercase;
 }
 #other-albums ul {
@@ -38,7 +38,7 @@
   border: #999999 solid 1px;
   color: #ffffff;
   height: 310px;
-  margin: 14px 0 0;
+  margin: 0 0 12px 0;
   text-align: center;
   width: 32.291667%;
   border-radius: 10px;
@@ -52,7 +52,7 @@
   *display: inline;
 }
 #other-albums .other-album-grid:nth-child(3n+2) {
-  margin: 14px 1.25% 0;
+  margin: 0 1.25% 12px;
 }
 #other-albums .other-album-grid img {
   margin: 10px auto;
