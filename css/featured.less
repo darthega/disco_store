@@ -1,4 +1,3 @@
-@page_width: 1024px;
 @gray: #BBBBBB;
 @dark-gray: #999999;
 @white: #FFFFFF;
@@ -13,6 +12,10 @@
 
 .center{
     margin: 0 auto;
+}
+
+.general-margin{
+    margin: 0 3.125%;
 }
 
 .inline-block{
@@ -44,12 +47,12 @@ nav ul li{
     background: @gray;
     border: @dark-gray 1px solid;
     color: @white;
-    margin: 0 3.125%;
     max-height: 300px;
     max-width: 960px;
     height: 100%;
     width: 100%;
     .rounded(15px);
+    .general-margin;
 
     header{
         padding: 1% 0 0;
