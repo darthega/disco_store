@@ -46,6 +46,7 @@
 header.main-header {
   height: 100%;
   max-height: 182px;
+  margin-bottom: 28px;
 }
 nav ul {
   background: #d7c925;
@@ -99,7 +100,7 @@ nav ul li a span {
   font-size: 14px;
   height: 28px;
   line-height: 28px;
-  padding: 0 14px;
+  padding: 0 16px;
   text-shadow: 1px 1px 0 #A78907;
 }
 .main-nav {
@@ -113,18 +114,17 @@ nav ul li a span {
   text-indent: -5000000px;
 }
 nav.user-nav {
-  border-bottom: 2px solid #BCBCBC;
-  border-top: 2px solid #BCBCBC;
+  border-top: 2px solid #BABABA;
   font-size: 13px;
-  margin: 0 3.125%;
-  padding: 5px 0;
+  margin: 16px 0 3.125%;
+  padding: 11px 0;
 }
 nav.user-nav ul {
   background: #000;
 }
 nav.user-nav ul li a span {
   border: none;
-  height: 28px;
+  height: 29px;
   padding: 0px 22px;
 }
 nav.user-nav ul li:nth-child(2) a span {
@@ -154,6 +154,37 @@ nav.secondary-nav ul li:last-child a span {
 }
 .social {
   float: right;
+  text-align: right;
+  width: 30%;
+}
+.social img {
+  padding-top: 10px;
+}
+.bottom {
+  background: none repeat scroll 0 0 #BBB;
+  border: 1px solid #999;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0 3.125%;
+}
+nav.secondary-nav {
+  display: inline-block;
+  min-height: 56px;
+  min-width: 45%;
+}
+nav.secondary-nav ul {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+nav.secondary-nav ul li {
+  margin: 4% 0 0;
+}
+nav.secondary-nav ul li:last-child a span {
+  border: none;
+}
+.social {
+  float: right;
+  margin-right: 1.268%;
   text-align: right;
   width: 30%;
 }
