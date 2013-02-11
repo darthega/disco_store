@@ -7,11 +7,14 @@
 */
 
 /*General styles*/
-
+body{
+    background: url("../img/home_discstore.png") no-repeat scroll center top transparent;
+    margin: 0;
+    padding: 0;
+}
 
 /*Featured album*/
 #featured-album{
-    background: #BBBBBB;
     width: 100%;
 }
 
@@ -19,6 +22,17 @@
 .center{
     margin: 0 auto;
 }
+
+/* wrappers */
+
+.main-wrapper {
+  background: url("../img/bg-main.png") repeat scroll center top transparent;
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
 
 .inline-block{
     display: inline-block;
