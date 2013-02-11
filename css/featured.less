@@ -1,4 +1,3 @@
-@page_width: 1024px;
 @gray: #BBBBBB;
 @dark-gray: #999999;
 @white: #FFFFFF;
@@ -15,6 +14,10 @@
     margin: 0 auto;
 }
 
+.general-margin{
+    margin: 0 3.125%;
+}
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -23,11 +26,11 @@
 }
 
 /* 
-    Document   : styles
+    Document   : featured
     Created on : 8/02/2013, 09:23:24 AM
     Author     : Daniel Ortega
     Description:
-        General style sheet for project Disco Store
+        General style sheet for Featured Album Block - Disco Store
 */
 
 /* General styles */
@@ -44,12 +47,12 @@ nav ul li{
     background: @gray;
     border: @dark-gray 1px solid;
     color: @white;
-    margin: 0 3.125%;
     max-height: 300px;
     max-width: 960px;
     height: 100%;
     width: 100%;
     .rounded(15px);
+    .general-margin;
 
     header{
         padding: 1% 0 0;
