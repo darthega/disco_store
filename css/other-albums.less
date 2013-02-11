@@ -15,7 +15,14 @@
 }
 
 .general-margin{
-    margin: 0 3.125%;
+    margin: 0 3.125%; //32/1024
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
 }
 
 /* 
@@ -26,3 +33,46 @@
         General style sheet for Other Albums Sections Block - Disco Store
 */
 
+#other-albums{
+    text-align: left;
+    .general-margin;
+    
+    header h2{
+        color: @dark-gray;
+        font-size: 1em;
+        margin: 0;
+        padding: 14px 0;
+        text-transform: uppercase;
+    }
+
+    ul{
+        margin:0;
+        padding:0;
+    }
+    
+    .other-album-grid{
+        background: @gray;
+        border: @dark-gray solid 1px;
+        color: @white;
+        height: 310px;
+        margin: 14px 0 0;
+        text-align: center;
+        width: 32.291667%; //310/960
+        .rounded(10px);
+        .inline-block;
+    }
+
+    .other-album-grid:nth-child(3n+2){
+        margin: 14px 1.25% 0;
+    }
+
+    .other-album-grid img{
+        margin: 10px auto;
+    }
+
+    .other-album-name{
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 2% 0 0;
+    }
+}
