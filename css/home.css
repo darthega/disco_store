@@ -116,7 +116,7 @@ nav ul li a span {
 nav.user-nav {
   border-top: 2px solid #BABABA;
   font-size: 13px;
-  margin: 16px 0 3.125%;
+  margin: 16px 3.125%;
   padding: 11px 0;
 }
 nav.user-nav ul {
@@ -134,7 +134,7 @@ nav.user-nav ul li:nth-child(2) a span {
   background: none repeat scroll 0 0 #BBB;
   border: 1px solid #999;
   border-radius: 10px 10px 10px 10px;
-  margin: 0 3.125%;
+  margin: 3.125%;
 }
 nav.secondary-nav {
   display: inline-block;
@@ -164,7 +164,7 @@ nav.secondary-nav ul li:last-child a span {
   background: none repeat scroll 0 0 #BBB;
   border: 1px solid #999;
   border-radius: 10px 10px 10px 10px;
-  margin: 0 3.125%;
+  margin: 3.125%;
 }
 nav.secondary-nav {
   display: inline-block;
