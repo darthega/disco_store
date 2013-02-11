@@ -6,8 +6,9 @@
         General style sheet for project Disco Store
 */
 
-@import url('featured.css');
 @import url('home.css');
+@import url('featured.css');
+@import url('other-albums.css');
 
 /*General styles*/
 
