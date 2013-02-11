@@ -18,6 +18,7 @@
         General style sheet for Other Albums Sections Block - Disco Store
 */
 #other-albums {
+  border-top: 1px solid #999999;
   text-align: left;
   margin: 0 3.125%;
 }
