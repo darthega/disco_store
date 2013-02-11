@@ -108,7 +108,21 @@ nav ul li a span {
 .main-nav ul li:last-child a span {
   border: none;
 }
-nav ul li:first-child a span {
+.main-nav ul li:first-child a span {
   background: url("../img/home.png") no-repeat scroll center center transparent;
   text-indent: -5000000px;
+}
+nav.user-nav {
+  font-size: 13px;
+}
+nav.user-nav ul {
+  background: #000;
+}
+nav.user-nav ul li a span {
+  border: none;
+  height: 28px;
+  padding: 0px 22px;
+}
+nav.user-nav ul li:nth-child(2) a span {
+  background: url("../img/Yellow_arrow_menu.png") no-repeat scroll 0 0 transparent;
 }
