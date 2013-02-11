@@ -1,35 +1,104 @@
-@page_width: 800px;
-@page_padding: 20px;
-@internal_width: @page_width - @page_padding;
+@page_width: 1024px;
+@gray: #BBBBBB;
+@white: #FFFFFF;
 
-.rounded(@radius: 3px) {
+.rounded(@radius) {
     border-radius: @radius;
+    -o-border-radius: @radius;
+    -ms-border-radius: @radius;
     -moz-border-radius: @radius;
     -webkit-border-radius: @radius;
 }
 
-document {
-    width: @page_width !important;
-    padding: @page_padding;
-    margin: auto;
+.center{
+    margin: 0 auto;
+}
 
-    h1.header_tag {
-        margin-bottom: 0px;
-        text-align: center;
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+
+/* 
+    Document   : styles
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for project Disco Store
+*/
+
+/* General styles */
+html{
+    font-size: 14px;
+}
+
+nav ul li{
+    .inline-block;
+}
+
+/* Featured Album Block */
+
+#featured-album{
+    background: @gray;
+    color: @white;
+    max-height: 300px;
+    max-width: 960px;
+    height: 100%;
+    width: 100%;
+    .rounded(15px);
+
+    h1{
+        font-size: 1em; // 14
+        padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%; // 10/960 20/960
+        margin: 0;
+        text-transform: uppercase;
     }
 
-    .section {
-        margin-bottom: 15px;
-        .rounded(5px);
+    article{
+        padding: 0 0.93875%; // 10/960
+        .inline-block;
 
-        h3 {
-            font-size: 16px !important;
-            margin-top: 0px;
-            text-align: center;
+        h2{
+            font-size: 1em;
+            margin: 0;
+            padding: 0 0 4% 0; // 12/300
+            text-transform: uppercase;
+        }
+
+        h3{
+            font-size: 0.875em; // 14/16
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        img{
+            padding: 0 1.041666667%; // 10/960
+            width: 30.20833333%; // 290/960
+            .inline-block;
+        }
+
+        .album-data{
+            width: 33.95833333%;
+            .inline-block;
+        }
+
+        p{
+            padding: 3.333333333% 0; // 10/300
+            .center;
         }
     }
+}
 
-    input[type=text], textarea {
-        width: @page_internal_width !important;
-    }
+.featured-description{
+    height: 100%;
+    max-height: 165px;
+    overflow: auto;
+}
+
+.button{
+    background: url('../img/button.png') no-repeat center center transparent;
+    background-size: 100%;
+    color: @white;
 }
