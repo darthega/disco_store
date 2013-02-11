@@ -1,7 +1,8 @@
-@page_width: 800px;
+@page_width: 1024px;
 @font-size: 14px;
 @page_padding: 20px;
 @internal_width: @page_width - @page_padding;
+@margenes: 0 3.125%;
 
 .rounded(@radius: 3px) {
     border-radius: @radius;
@@ -94,7 +95,11 @@ nav ul li a span{
 }
 
 nav.user-nav {
-  font-size: 13px;
+    border-bottom: 2px solid #BCBCBC;
+    border-top: 2px solid #BCBCBC;
+    font-size: 13px;
+    margin: @margenes;
+    padding: 5px 0;
 }
 
 nav.user-nav ul{
@@ -117,4 +122,48 @@ nav.user-nav ul li a span{
 nav.user-nav ul li:nth-child(2) a span{
     background: url("../img/Yellow_arrow_menu.png") no-repeat scroll 0 0 transparent;
 }
+//bottom section
+.bottom{
+  background: none repeat scroll 0 0 #BBB;
+  border: 1px solid #999;
+  border-radius: 10px 10px 10px 10px;
+    margin: @margenes;
+}
+
+
+// bottom nav
+
+nav.secondary-nav {
+    display: inline-block;
+    max-width: 43%;
+    min-height: 56px;
+
+    
+}
+
+nav.secondary-nav ul {
+    background: none;
+    border:none;
+    box-shadow:none;
+}
+nav.secondary-nav ul li{
+    margin: 4% 0 0;
+}
+
+nav.secondary-nav ul li:last-child a span{
+    border:none;
+}
+
+// social
+
+.social{
+    float: right;
+    text-align: right;
+    width: 30%;
+}
+ 
+.social img{
+    padding-top:10px;
+}
+
 
