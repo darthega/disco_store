@@ -2,6 +2,8 @@
 @font-size: 14px;
 @page_padding: 20px;
 @margenes: 3.125%;
+@bg-gray: none repeat scroll 0 0 #BBB;
+@border-right: 1px solid #999;
 @internal_width: @page_width - @page_padding;
 
 .rounded(@radius: 3px) {
@@ -99,7 +101,7 @@ nav.user-nav {
 //border-bottom: 2px solid #BABABA;
     border-top: 2px solid #BABABA;
     font-size: 13px;
-    margin: 16px @margenes;
+    margin: 16px @margenes 0;
     padding: 11px 0;
 
 }
@@ -125,10 +127,10 @@ nav.user-nav ul li:nth-child(2) a span{
     background: url("../img/Yellow_arrow_menu.png") no-repeat scroll 0 0 transparent;
 }
 //bottom section
-.bottom{
+.bottom, footer{
   background: none repeat scroll 0 0 #BBB;
   border: 1px solid #999;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 2px;
     margin: @margenes;
 }
 
@@ -171,10 +173,10 @@ nav.secondary-nav ul li:last-child a span{
 
 //bottom section 
 .bottom{
-  background: none repeat scroll 0 0 #BBB;
-  border: 1px solid #999;
-  border-radius: 10px 10px 10px 10px;
-    margin: @margenes;
+  background: @bg-gray;
+  border: @border-right;
+  border-radius: 2px;
+  margin: @margenes;
 }
 
 
@@ -205,11 +207,25 @@ nav.secondary-nav ul li:last-child a span{
     float: right;
     margin-right: 1.268%;
     text-align: right;
-    width: 30%;
+    width: 10%;
 }
  
 .social img{
     padding-top:10px;
 }
+
+//footer
+
+footer{
+font-size:10px;
+    text-align: center;
+}
+
+footer span{
+    color:#fff;
+}
+
+
+
 
 

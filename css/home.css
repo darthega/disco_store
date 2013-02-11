@@ -116,7 +116,7 @@ nav ul li a span {
 nav.user-nav {
   border-top: 2px solid #BABABA;
   font-size: 13px;
-  margin: 16px 3.125%;
+  margin: 16px 3.125% 0;
   padding: 11px 0;
 }
 nav.user-nav ul {
@@ -130,10 +130,11 @@ nav.user-nav ul li a span {
 nav.user-nav ul li:nth-child(2) a span {
   background: url("../img/Yellow_arrow_menu.png") no-repeat scroll 0 0 transparent;
 }
-.bottom {
+.bottom,
+footer {
   background: none repeat scroll 0 0 #BBB;
   border: 1px solid #999;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 2px;
   margin: 3.125%;
 }
 nav.secondary-nav {
@@ -161,9 +162,9 @@ nav.secondary-nav ul li:last-child a span {
   padding-top: 10px;
 }
 .bottom {
-  background: none repeat scroll 0 0 #BBB;
-  border: 1px solid #999;
-  border-radius: 10px 10px 10px 10px;
+  background: none repeat scroll 0 0 #bbbbbb;
+  border: 1px solid #999999;
+  border-radius: 2px;
   margin: 3.125%;
 }
 nav.secondary-nav {
@@ -186,8 +187,15 @@ nav.secondary-nav ul li:last-child a span {
   float: right;
   margin-right: 1.268%;
   text-align: right;
-  width: 30%;
+  width: 10%;
 }
 .social img {
   padding-top: 10px;
+}
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+footer span {
+  color: #fff;
 }
