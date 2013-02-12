@@ -6,20 +6,43 @@
         General style sheet for project Disco Store
 */
 
+@import url('home.css');
+@import url('featured.css');
+@import url('other-albums.css');
+
 /*General styles*/
 
-
-/*Featured album*/
-#featured-album{
-    background: #BBBBBB;
-    width: 100%;
+html {
+  font-size: 14px;
 }
 
-/*General classes*/
-.center{
-    margin: 0 auto;
+body{
+    margin: 0;
+    padding: 0;
 }
 
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+/* wrappers */
+
+.main-wrapper {
+  background: url("../img/bg-main.png") repeat scroll center top transparent;
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+/*Clases*/
+.center {
+  margin: 0 auto;
+}
+  
 .inline-block{
     display: inline-block;
     vertical-align: top;

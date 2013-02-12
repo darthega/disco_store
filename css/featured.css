@@ -1,0 +1,133 @@
+.center {
+  margin: 0 auto;
+}
+.general-margin {
+  margin: 0 3.125%;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* 
+    Document   : featured
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Featured Album Block - Disco Store
+*/
+/* General styles */
+html {
+  font-size: 14px;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* Featured Album Block */
+#featured-album {
+  background: #bbbbbb;
+  border: #999999 1px solid;
+  color: #ffffff;
+  max-height: 300px;
+  max-width: 960px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  margin: 0 3.125%;
+}
+#featured-album header {
+  padding: 1% 0 0;
+}
+#featured-album h1 {
+  font-size: 1em;
+  padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%;
+  margin: 0;
+  text-transform: uppercase;
+}
+#featured-album article {
+  padding: 0 0.93875% 3%;
+  width: 67.70833333%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+#featured-album article h2 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0 0 4% 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+#featured-album article h3 {
+  font-size: 0.875em;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+#featured-album article img {
+  padding: 0 1.041666667%;
+  width: 44.61538462%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+#featured-album article .album-data {
+  text-align: right;
+  width: 50.15384615%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+#featured-album article p {
+  padding: 3.333333333% 0;
+  text-align: left;
+  margin: 0 auto;
+}
+#featured-album .featured-description {
+  height: 100%;
+  max-height: 125px;
+  overflow: auto;
+}
+#featured-album .button {
+  background: url('../img/button.png') no-repeat center center transparent;
+  background-size: 100%;
+  color: #ffffff;
+  display: block;
+  font-size: 0.714285714em;
+  height: 39px;
+  line-height: 39px;
+  margin: 3% 0 0 74%;
+  text-align: center;
+  text-decoration: none;
+  width: 26.68711656%;
+}
+#featured-album aside {
+  height: 100%;
+  max-height: 223px;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+#featured-album aside h4 {
+  margin: 0;
+  padding: 0;
+}
+#featured-album aside ul {
+  padding: 0 0 0 10%;
+}
+#featured-album aside ul li {
+  list-style-image: url('../img/bullet.png');
+}
