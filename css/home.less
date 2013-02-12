@@ -124,8 +124,25 @@ nav.user-nav ul li a span{
 }
 
 nav.user-nav ul li:nth-child(2) a span{
-    background: url("../img/Yellow_arrow_menu.png") no-repeat scroll 0 0 transparent;
+    .yellow-gradient;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    height: 28px;
 }
+.yellow-arrow-bk, .yellow-arrow-fw {
+  background: url("../img/Yellow_arrow_menu_bk_s1.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 28px;
+  vertical-align: top; 
+  width: 18px;
+}
+
+.yellow-arrow-fw {
+  background: url("../img/Yellow_arrow_menu_fw_s1.png") no-repeat scroll 0 0 transparent;
+}
+
+
 //bottom section
 .bottom, footer{
   background: none repeat scroll 0 0 #BBB;
@@ -176,7 +193,7 @@ nav.secondary-nav ul li:last-child a span{
   background: @bg-gray;
   border: @border-right;
   border-radius: 2px;
-  margin: 13px @margenes;
+  margin: 0 @margenes 8px;
 }
 
 
@@ -217,13 +234,13 @@ nav.secondary-nav ul li:last-child a span{
 //footer
 
 footer{
-color: #FFFFFF;
-font-size: 1em;
-font-weight: bold;
-height: 23px;
-line-height: 23px;
-margin: 0 @margenes;
-text-align: center;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    margin: 0 @margenes;
+    text-align: center;
 }
 
 footer span{
