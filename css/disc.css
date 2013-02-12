@@ -27,13 +27,13 @@ nav ul li {
   zoom: 1;
   *display: inline;
 }
-#disc-internal {
+.disc-internal {
   height: 510px;
 }
-#disc-internal .featured-description {
+.disc-internal .featured-description {
   height: 330px;
 }
-#disc-internal .button {
+.disc-internal .button {
   background: url('../img/rectangular-button.png') no-repeat center center transparent;
   background-size: 100%;
   color: #ffffff;
@@ -46,6 +46,12 @@ nav ul li {
   text-decoration: none;
   width: 51.226994%;
 }
-#disc-internal aside {
+.disc-internal aside {
   height: 364px;
+}
+.list-albums.internal {
+  border: none;
+}
+.list-albums.internal h2 {
+  text-transform: none;
 }

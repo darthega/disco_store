@@ -2,7 +2,7 @@
   margin: 0 auto;
 }
 .general-margin {
-  margin: 0 3.125%;
+  margin: 3.125%;
 }
 .inline-block {
   display: inline-block;
@@ -31,6 +31,7 @@ nav ul li {
   background: #bbbbbb;
   border: #999999 1px solid;
   color: #ffffff;
+  margin-bottom: 10px;
   max-width: 960px;
   width: 100%;
   border-radius: 15px;
@@ -38,7 +39,7 @@ nav ul li {
   -ms-border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  margin: 0 3.125%;
+  margin: 3.125%;
 }
 .gray-block header {
   padding: 1% 0 0;
@@ -95,9 +96,11 @@ nav ul li {
   overflow: auto;
 }
 .gray-block aside {
+  border-left: 3px solid #ffffff;
+  padding-left: 1%;
   height: 100%;
   overflow: auto;
-  width: 32.083333;
+  width: 27.083333%;
   display: inline-block;
   vertical-align: top;
   zoom: 1;
@@ -113,13 +116,13 @@ nav ul li {
 .gray-block aside ul li {
   list-style-image: url('../img/bullet.png');
 }
-#featured-album {
+.featured-album {
   height: 300px;
 }
-#featured-album .featured-description {
+.featured-album .featured-description {
   height: 125px;
 }
-#featured-album .button {
+.featured-album .button {
   background: url('../img/button.png') no-repeat center center transparent;
   background-size: 100%;
   color: #ffffff;
@@ -132,6 +135,6 @@ nav ul li {
   text-decoration: none;
   width: 26.68711656%;
 }
-#featured-album aside {
+.featured-album aside {
   height: 223px;
 }
