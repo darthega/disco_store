@@ -165,7 +165,7 @@ nav.secondary-nav ul li:last-child a span {
   background: none repeat scroll 0 0 #bbbbbb;
   border: 1px solid #999999;
   border-radius: 2px;
-  margin: 3.125%;
+  margin: 13px 3.125%;
 }
 nav.secondary-nav {
   display: inline-block;
@@ -193,7 +193,12 @@ nav.secondary-nav ul li:last-child a span {
   padding-top: 10px;
 }
 footer {
-  font-size: 10px;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: bold;
+  height: 23px;
+  line-height: 23px;
+  margin: 0 3.125%;
   text-align: center;
 }
 footer span {
