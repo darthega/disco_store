@@ -165,7 +165,7 @@ nav.secondary-nav ul li:last-child a span {
   background: none repeat scroll 0 0 #bbbbbb;
   border: 1px solid #999999;
   border-radius: 2px;
-  margin: 13px 3.125%;
+  margin: 0 3.125% 8px;
 }
 nav.secondary-nav {
   display: inline-block;
