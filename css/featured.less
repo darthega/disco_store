@@ -42,14 +42,11 @@ nav ul li{
     .inline-block;
 }
 
-/* Featured Album Block */
-#featured-album{
+.gray-block{
     background: @gray;
     border: @dark-gray 1px solid;
     color: @white;
-    max-height: 300px;
     max-width: 960px;
-    height: 100%;
     width: 100%;
     .rounded(15px);
     .general-margin;
@@ -62,7 +59,6 @@ nav ul li{
         font-size: 1em; // 14
         padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%; // 10/960 20/960
         margin: 0;
-        text-transform: uppercase;
     }
 
     article{
@@ -106,8 +102,35 @@ nav ul li{
 
     .featured-description{
         height: 100%;
-        max-height: 125px;
         overflow: auto;
+    }
+
+    aside{
+        height: 100%;
+        overflow: auto;
+        width: 32.083333;
+        .inline-block;
+
+        h4{
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul{
+            padding: 0 0 0 10%;
+        }
+
+        ul li{
+            list-style-image: url('../img/bullet.png');
+        }
+    }
+}
+
+#featured-album{
+    height: 300px;
+
+    .featured-description{
+        height: 125px;
     }
 
     .button{
@@ -125,23 +148,6 @@ nav ul li{
     }
 
     aside{
-        height: 100%;
-        max-height: 223px;
-        overflow: auto;
-        width: 32.083333;
-        .inline-block;
-
-        h4{
-            margin: 0;
-            padding: 0;
-        }
-        
-        ul{
-            padding: 0 0 0 10%;
-        }
-
-        ul li{
-            list-style-image: url('../img/bullet.png');
-        }
+        height: 223px;
     }
 }
