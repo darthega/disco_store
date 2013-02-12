@@ -42,106 +42,28 @@ nav ul li{
     .inline-block;
 }
 
-/* Featured Album Block */
-#featured-album{
-    background: @gray;
-    border: @dark-gray 1px solid;
-    color: @white;
-    max-height: 300px;
-    max-width: 960px;
-    height: 100%;
-    width: 100%;
-    .rounded(15px);
-    .general-margin;
-
-    header{
-        padding: 1% 0 0;
-    }
-
-    h1{
-        font-size: 1em; // 14
-        padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%; // 10/960 20/960
-        margin: 0;
-        text-transform: uppercase;
-    }
-
-    article{
-        padding: 0 0.93875% 3%; // 10/960
-        width: 67.70833333%; // 650/960
-        .inline-block;
-
-        h2{
-            font-size: 1em;
-            margin: 0;
-            padding: 0 0 4% 0; // 12/300
-            text-align: left;
-            text-transform: uppercase;
-        }
-
-        h3{
-            font-size: 0.875em; // 14/16
-            margin: 0;
-            text-align: left;
-            text-transform: uppercase;
-        }
-
-        img{
-            padding: 0 1.041666667%; // 10/960
-            width: 44.61538462%; // 290/650
-            .inline-block;
-        }
-
-        .album-data{
-            text-align: right;
-            width: 50.15384615%; // 326/650
-            .inline-block;
-        }
-
-        p{
-            padding: 3.333333333% 0; // 10/300
-            text-align: left;
-            .center;
-        }
-    }
+#disc-internal{
+    height: 510px;
 
     .featured-description{
-        height: 100%;
-        max-height: 125px;
-        overflow: auto;
+        height: 330px;
     }
 
     .button{
-        background: url('../img/button.png') no-repeat center center transparent;
+        background: url('../img/rectangular-button.png') no-repeat center center transparent;
         background-size: 100%;
         color: @white;
         display: block;
-        font-size: 0.714285714em; // 10/14
-        height: 39px;
-        line-height: 39px;
-        margin: 3% 0 0 74%;
+        font-size: 0.85714286em; // 12/14
+        height: 37px;
+        line-height: 37px;
+        margin: 5% 0 0;
         text-align: center;
         text-decoration: none;
-        width: 26.68711656%; // 87/326
+        width: 51.226994%; // 167/326
     }
 
     aside{
-        height: 100%;
-        max-height: 223px;
-        overflow: auto;
-        width: 32.083333;
-        .inline-block;
-
-        h4{
-            margin: 0;
-            padding: 0;
-        }
-        
-        ul{
-            padding: 0 0 0 10%;
-        }
-
-        ul li{
-            list-style-image: url('../img/bullet.png');
-        }
+        height: 364px;
     }
 }
