@@ -16,7 +16,7 @@
     Author     : Daniel Ortega
     Description:
         General style sheet for Featured Album Block - Disco Store
-        */
+*/
 /* General styles */
 html {
   font-size: 14px;
@@ -32,8 +32,8 @@ nav ul li {
   border: #999999 1px solid;
   color: #ffffff;
   margin: 0 auto;
-  max-width: 960px;
-  width: 100%;
+  max-width: 1024px;
+  width: 93.75%;
   border-radius: 15px;
   -o-border-radius: 15px;
   -ms-border-radius: 15px;
