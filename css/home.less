@@ -46,6 +46,10 @@
     text-align: center;
     width: auto;
 }
+.logo img {
+  max-width: 317px;
+  width: 100%;
+}
 header.main-header{
     height: 100%;
     max-height: 182px;
@@ -248,8 +252,5 @@ footer span{
 }
 
 // iphone 320 x 480 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    @import url('iphone.css');
-}
+@import url(iphone.css) only screen 
+and (max-width : 480px);
