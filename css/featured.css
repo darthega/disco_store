@@ -166,7 +166,35 @@ nav ul li {
 }
 /* Smart-phone (portrait and landscape) ----------- */
 @media only screen and (max-width: 490px) {
+  .gray-block article {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  .gray-block article img {
+    margin: 6px auto;
+    width: 70%;
+  }
+  .gray-block article .album-data {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .gray-block article .album-data h2 {
+    font-size: 1.2em;
+  }
+  .gray-block article .album-data h2,
+  .gray-block article .album-data h3 {
+    text-align: center;
+  }
   .gray-block aside {
     display: none;
+  }
+  .featured-album {
+    height: 500px;
+    text-align: center;
+  }
+  .featured-album .button {
+    width: 15%;
+    margin: 2% 0 0 82%;
   }
 }

@@ -198,11 +198,42 @@ and (max-width : 768px) {
 and (max-width : 490px) {
     .gray-block{
         article{
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
 
+            img{
+                margin: 6px auto;
+                width: 70%;
+            }
+
+            .album-data{
+                margin: 0 auto;
+                width: 90%;
+
+                h2{
+                    font-size: 1.2em;
+                }
+
+                h2, h3{
+                    text-align: center;
+                }
+            }
         }
+
 
         aside{
             display: none;
+        }
+    }
+
+    .featured-album{
+        height: 500px;
+        text-align: center;
+
+        .button{
+            width: 15%;
+            margin: 2% 0 0 82%;
         }
     }
 }
