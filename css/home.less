@@ -160,10 +160,9 @@ nav.user-nav ul li:nth-child(2) a span{
 
 nav.secondary-nav {
     display: inline-block;
-    max-width: 43%;
+    max-width: 100%;
     min-height: 56px;
-
-    
+    width: auto; 
 }
 
 nav.secondary-nav ul {
@@ -183,8 +182,9 @@ nav.secondary-nav ul li:last-child a span{
 
 .social{
     float: right;
+    margin-right: 1.268%;
     text-align: right;
-    width: 30%;
+    width: auto; 
 }
  
 .social img{
@@ -228,7 +228,7 @@ nav.secondary-nav ul li:last-child a span{
     float: right;
     margin-right: 1.268%;
     text-align: right;
-    width: 10%;
+    width: auto;
 }
  
 .social img{
@@ -254,4 +254,10 @@ footer span{
 // iphone 320 x 480 
 @import url(iphone.css) only screen 
 and (max-width : 490px);
+//for bottom nav bar 555px
+@media only screen and (max-width: 555px){
 
+    .bottom nav.secondary-nav ul li a span {
+      padding:0 6%;
+    }
+}
