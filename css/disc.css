@@ -49,3 +49,9 @@ nav ul li {
 .disc-internal aside {
   height: 364px;
 }
+.list-albums.internal {
+  border: none;
+}
+.list-albums.internal h2 {
+  text-transform: none;
+}
