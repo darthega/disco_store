@@ -31,32 +31,32 @@
     Author     : Daniel Ortega
     Description:
         General style sheet for Featured Album Block - Disco Store
-*/
+        */
 
-/* General styles */
-html{
-    font-size: 14px;
-}
+        /* General styles */
+        html{
+            font-size: 14px;
+        }
 
-nav ul li{
-    .inline-block;
-}
+        nav ul li{
+            .inline-block;
+        }
 
-.gray-block{
-    background: @gray;
-    border: @dark-gray 1px solid;
-    color: @white;
-    margin-bottom: 10px;
-    max-width: 960px;
-    width: 100%;
-    .rounded(15px);
-    .general-margin;
+        .gray-block{
+            background: @gray;
+            border: @dark-gray 1px solid;
+            color: @white;
+            margin: 0 auto;
+            max-width: 960px;
+            width: 100%;
+            .rounded(15px);
+            
 
-    header{
-        padding: 1% 0 0;
-    }
+            header{
+                padding: 1% 0 0;
+            }
 
-    h1{
+            h1{
         font-size: 1em; // 14
         padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%; // 10/960 20/960
         margin: 0;
@@ -64,6 +64,7 @@ nav ul li{
 
     article{
         padding: 0 0.93875% 3%; // 10/960
+        margin: 0 auto;
         width: 67.70833333%; // 650/960
         .inline-block;
 
@@ -110,6 +111,7 @@ nav ul li{
         border-left: 3px solid @white;
         padding-left: 1%;
         height: 100%;
+        margin: 0 auto;
         overflow: auto;
         width: 27.083333%;
         .inline-block;
@@ -152,5 +154,86 @@ nav ul li{
 
     aside{
         height: 223px;
+    }
+}
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 491px) 
+and (max-width : 768px) {
+    .gray-block{
+        article, aside{
+            display: block;
+            width: 90%;
+        }
+
+        article{
+            img {
+                width: 40%;
+            }
+
+            .album-data{
+                width: 57%;
+            }
+        }
+
+        aside{
+            border: none;
+            height: 120px;
+        }
+    }
+
+    .featured-album{
+        height: 420px;
+
+        .button{
+            width: 15%;
+            margin: 2% 0 0 82%;
+        }
+    }
+}
+
+/* Smart-phone (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 490px) {
+    .gray-block{
+        article{
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+
+            img{
+                margin: 6px auto;
+                width: 70%;
+            }
+
+            .album-data{
+                margin: 0 auto;
+                width: 90%;
+
+                h2{
+                    font-size: 1.2em;
+                }
+
+                h2, h3{
+                    text-align: center;
+                }
+            }
+        }
+
+
+        aside{
+            display: none;
+        }
+    }
+
+    .featured-album{
+        height: 500px;
+        text-align: center;
+
+        .button{
+            width: 15%;
+            margin: 2% 0 0 82%;
+        }
     }
 }

@@ -16,7 +16,7 @@
     Author     : Daniel Ortega
     Description:
         General style sheet for Featured Album Block - Disco Store
-*/
+        */
 /* General styles */
 html {
   font-size: 14px;
@@ -31,7 +31,7 @@ nav ul li {
   background: #bbbbbb;
   border: #999999 1px solid;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin: 0 auto;
   max-width: 960px;
   width: 100%;
   border-radius: 15px;
@@ -39,7 +39,6 @@ nav ul li {
   -ms-border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  margin: 3.125%;
 }
 .gray-block header {
   padding: 1% 0 0;
@@ -51,6 +50,7 @@ nav ul li {
 }
 .gray-block article {
   padding: 0 0.93875% 3%;
+  margin: 0 auto;
   width: 67.70833333%;
   display: inline-block;
   vertical-align: top;
@@ -99,6 +99,7 @@ nav ul li {
   border-left: 3px solid #ffffff;
   padding-left: 1%;
   height: 100%;
+  margin: 0 auto;
   overflow: auto;
   width: 27.083333%;
   display: inline-block;
@@ -137,4 +138,63 @@ nav ul li {
 }
 .featured-album aside {
   height: 223px;
+}
+/* Tablet (portrait and landscape) ----------- */
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+  .gray-block article,
+  .gray-block aside {
+    display: block;
+    width: 90%;
+  }
+  .gray-block article img {
+    width: 40%;
+  }
+  .gray-block article .album-data {
+    width: 57%;
+  }
+  .gray-block aside {
+    border: none;
+    height: 120px;
+  }
+  .featured-album {
+    height: 420px;
+  }
+  .featured-album .button {
+    width: 15%;
+    margin: 2% 0 0 82%;
+  }
+}
+/* Smart-phone (portrait and landscape) ----------- */
+@media only screen and (max-width: 490px) {
+  .gray-block article {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  .gray-block article img {
+    margin: 6px auto;
+    width: 70%;
+  }
+  .gray-block article .album-data {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .gray-block article .album-data h2 {
+    font-size: 1.2em;
+  }
+  .gray-block article .album-data h2,
+  .gray-block article .album-data h3 {
+    text-align: center;
+  }
+  .gray-block aside {
+    display: none;
+  }
+  .featured-album {
+    height: 500px;
+    text-align: center;
+  }
+  .featured-album .button {
+    width: 15%;
+    margin: 2% 0 0 82%;
+  }
 }
