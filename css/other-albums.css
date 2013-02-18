@@ -55,7 +55,9 @@
   margin: 0 1.25% 12px;
 }
 .list-albums .other-album-grid img {
+  max-width: 290px;
   margin: 10px auto;
+  width: 100%;
 }
 .list-albums .other-album-name {
   font-size: 1.2em;
