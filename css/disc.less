@@ -75,3 +75,59 @@ nav ul li{
         text-transform: none;
     }
 }
+
+@media only screen
+and (min-width: 491px)
+and (max-width: 768px){
+    .disc-internal{
+        height: 600px;
+
+        article{
+            img {
+                width: 40%;
+            }
+
+            .album-data{
+                width: 57%;
+
+                .featured-description{
+                    height: 185px;
+                    overflow: auto;
+                }
+            }            
+        }
+
+        .button{
+            width: 25%;
+            margin: 2% 0 0 72%;
+        }
+
+        aside{
+            height: 200px;
+            overflow: auto;
+        }
+    }
+}
+
+@media only screen
+and (max-width: 490px){
+
+    .disc-internal{
+        height: 500px;
+        text-align: center;
+
+        article{
+            .album-data{
+                .featured-description{
+                    height: 125px;
+                    overflow: auto;
+                }
+            }
+        }
+
+        .button{
+            width: 25%;
+            margin: 2% 0 0 72%;
+        }
+    }
+}
