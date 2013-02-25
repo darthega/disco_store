@@ -57,7 +57,7 @@
   width: 100%;
 }
 .list-albums .other-album-grid:nth-child(3n+2) {
-  margin: 0 1.23% 12px;
+  margin: 0 0.8% 12px;
 }
 .list-albums .other-album-name {
   font-size: 1.2em;
