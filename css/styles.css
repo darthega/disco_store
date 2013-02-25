@@ -1,3 +1,12 @@
+@import url('home.css');
+
+@import url('featured.css');
+
+@import url('other-albums.css');
+
+@import url('contact-us.css');
+
+@import url('disc.css');
 /* 
     Document   : styles
     Created on : 8/02/2013, 09:23:24 AM
@@ -5,32 +14,21 @@
     Description:
         General style sheet for project Disco Store
 */
-
-@import url('home.css');
-@import url('featured.css');
-@import url('other-albums.css');
-@import url('disc.css');
-
 /*General styles*/
-
 html {
   font-size: 14px;
 }
-
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-
 nav ul li {
   display: inline-block;
   vertical-align: top;
   zoom: 1;
   *display: inline;
 }
-
 /* wrappers */
-
 .main-wrapper {
   background: url("../img/bg-main.png") repeat scroll center top transparent;
   display: block;
@@ -38,15 +36,13 @@ nav ul li {
   max-width: 1024px;
   width: 100%;
 }
-
 /*Clases*/
 .center {
   margin: 0 auto;
 }
-  
-.inline-block{
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline;
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
 }

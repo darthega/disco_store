@@ -55,3 +55,40 @@ nav ul li {
 .list-albums.internal h2 {
   text-transform: none;
 }
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+  .disc-internal {
+    height: 600px;
+  }
+  .disc-internal article img {
+    width: 40%;
+  }
+  .disc-internal article .album-data {
+    width: 57%;
+  }
+  .disc-internal article .album-data .featured-description {
+    height: 185px;
+    overflow: auto;
+  }
+  .disc-internal .button {
+    width: 25%;
+    margin: 2% 0 0 72%;
+  }
+  .disc-internal aside {
+    height: 200px;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .disc-internal {
+    height: 500px;
+    text-align: center;
+  }
+  .disc-internal article .album-data .featured-description {
+    height: 125px;
+    overflow: auto;
+  }
+  .disc-internal .button {
+    width: 25%;
+    margin: 2% 0 0 72%;
+  }
+}
