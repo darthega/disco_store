@@ -1,6 +1,7 @@
 @gray: #BBBBBB;
 @dark-gray: #999999;
 @white: #FFFFFF;
+@black: #000000;
 
 .rounded(@radius) {
     border-radius: @radius;
@@ -77,6 +78,29 @@
         font-size: 1.2em;
         font-weight: bold;
         margin: 2% 0 0;
+    }
+
+    .pager{
+        text-align: center;
+        
+        ul{
+            list-style: none;
+            .inline-block;
+
+            li{
+                .inline-block;
+            }
+        }
+
+        a{
+            color: @dark-gray;
+            text-decoration: none;
+            
+            &:hover{
+                color: @black;
+                text-decoration: underline;
+            }
+        }
     }
 }
 

@@ -64,6 +64,30 @@
   font-weight: bold;
   margin: 2% 0 0;
 }
+.list-albums .pager {
+  text-align: center;
+}
+.list-albums .pager ul {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.list-albums .pager ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.list-albums .pager a {
+  color: #999999;
+  text-decoration: none;
+}
+.list-albums .pager a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
 @media only screen and (min-width: 491px) and (max-width: 768px) {
   .list-albums ul {
     text-align: center;
