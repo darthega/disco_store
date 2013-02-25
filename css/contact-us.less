@@ -1,13 +1,63 @@
-// contact-us less stylesheet
-// by Daniel Silva 
-// 12-02-2013
-@box-padding: 1.4433%; // 14/970
-@box-width: 59.7938%; // 308/970
+@box-padding : 1.4583333%; //14/970
+@left-width : 57.5%; //552/960
+@form-width : 30%; //288/960
 
+.inline-block{
+	display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
 
-.inner-margin{
+/* 
+    Document   : contact-us
+    Created on : 25/02/2013, 09:27:35 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Contact-us section - Disco Store
+*/
+
+.left-block{
+    max-width: @left-width;
     padding: @box-padding;
-} 
-.w308{
-    max-width: @box-width;
+    .inline-block;
+}
+
+.contact-us-form{
+	margin: 3.125% 0 ;
+	max-width: @form-width;
+	text-align: left;
+	.inline-block;
+	
+	.form_leftcollabel, .form_leftcolmark{
+		float: left;
+	}
+	
+	input, textarea{
+		border: none;
+		margin: 0 0 10px 0;
+		width: 96%;
+	}
+
+	input{
+		background: url('../img/text.png') no-repeat left center transparent;
+		padding: 0 2%;
+		min-height: 30px;
+	}
+
+	textarea{
+		background: url('../img/area.png') no-repeat left top transparent;
+		padding: 2%;
+		min-height: 127px;
+		resize: none;
+	}
+
+	input[type="submit"]{
+		background: url('../img/form-btn.png') no-repeat center center transparent;
+		background-size: 100%;
+		float: right;
+		margin: 0 5.208333333333% /* 15/288 */ 0 0;
+		min-height: 34px;
+		width: 27.777777777778%; //80/288
+	}
 }
