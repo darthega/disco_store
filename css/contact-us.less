@@ -1,3 +1,4 @@
+@dark-gray: #999999;
 @box-padding : 1.4583333%; //14/970
 @left-width : 57.5%; //552/960
 @form-width : 30%; //288/960
@@ -17,14 +18,23 @@
         General style sheet for Contact-us section - Disco Store
 */
 
+h2{
+    color: @dark-gray;
+    font-size: 1.4em;
+    margin: 0 3.125%;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
 .left-block{
+	margin: 0 3.125%;
     max-width: @left-width;
     padding: @box-padding;
     .inline-block;
 }
 
 .contact-us-form{
-	margin: 3.125% 0 ;
+	margin: 0 0 3.125%;
 	max-width: @form-width;
 	text-align: left;
 	.inline-block;
@@ -48,7 +58,7 @@
 	textarea{
 		background: url('../img/area.png') no-repeat left top transparent;
 		padding: 2%;
-		min-height: 127px;
+		min-height: 140px;
 		resize: none;
 	}
 
