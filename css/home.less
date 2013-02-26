@@ -62,7 +62,7 @@ nav{
 
 // navigation bars
 
-nav ul{
+nav ul, .user-nav{
     .yellow-gradient;
     border: 4px solid #000000;
     border-radius: 10px 10px 10px 10px;
@@ -101,33 +101,29 @@ nav ul li a span{
   text-indent: -5000000px;
 }
 
-nav.user-nav {
+.user-nav {
 //border-bottom: 2px solid #BABABA;
     border-top: 2px solid #BABABA;
     font-size: 13px;
     margin: 16px @margenes 0;
     padding: 11px 0;
-
-}
-
-nav.user-nav ul{
     background: #000;
 }
-nav.user-nav ul li{
+ul.user-nav li{
 
 }
 
-nav.user-nav ul li a{
+ul.user-nav li a{
 
 }
 
-nav.user-nav ul li a span{
+ul.user-nav li a span{
     border:none;
     height:29px;
     padding: 0px 22px;
 }
 
-nav.user-nav ul li:nth-child(2) a span{
+ul.user-nav li:last-child a span{
     .yellow-gradient;
     display: inline-block;
     padding: 0;
