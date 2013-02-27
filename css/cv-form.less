@@ -1,0 +1,40 @@
+@dark-gray: #999999;
+@black: #000000;
+@box-padding : 1.4583333%; //14/970
+@left-width : 57.5%; //552/960
+@form-width : 30%; //288/960
+
+.inline-block{
+	display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+
+.cv-form{
+	label{
+		color: @black;
+	}
+
+	.fake-file, input[type="button"]{
+		background: url('../img/form-btn.png') no-repeat center center transparent;
+		background-size: 100%;
+		color: @black;
+		clear: right;
+		cursor: pointer;
+		float: right;
+		line-height: 34px;
+		margin: 0 5.208333333333% /* 15/288 */ 5%;
+		min-height: 34px;
+		text-align: center;
+		width: 27.777777777778%; //80/288
+	}
+
+	input[type="file"]{
+		display: none;
+	}
+
+	input[type="submit"]{
+		clear: both;
+	}
+}

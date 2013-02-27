@@ -53,7 +53,8 @@ header.main-header {
   max-height: 182px;
   margin-bottom: 28px;
 }
-nav ul {
+nav ul,
+.user-nav {
   background: #d7c925;
   /* Old browsers */
 
@@ -118,7 +119,7 @@ nav ul li a span {
   background: url("../img/home.png") no-repeat scroll center center transparent;
   text-indent: -5000000px;
 }
-nav.user-nav {
+.user-nav {
   border-top: 2px solid #BABABA;
   font-size: 13px;
   margin: 16px 3.125% 0;
