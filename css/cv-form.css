@@ -1,0 +1,29 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.cv-form label {
+  color: #000000;
+}
+.cv-form .fake-file,
+.cv-form input[type="button"] {
+  background: url('../img/form-btn.png') no-repeat center center transparent;
+  background-size: 100%;
+  color: #000000;
+  clear: right;
+  cursor: pointer;
+  float: right;
+  line-height: 34px;
+  margin: 0 5.208333333333% /* 15/288 */ 5%;
+  min-height: 34px;
+  text-align: center;
+  width: 27.777777777778%;
+}
+.cv-form input[type="file"] {
+  display: none;
+}
+.cv-form input[type="submit"] {
+  clear: both;
+}
