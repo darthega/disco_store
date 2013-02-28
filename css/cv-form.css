@@ -7,7 +7,12 @@
 .cv-form label {
   color: #000000;
 }
-.cv-form .form_captcha_input input {
+.cv-form .form_captcha_input .form_captcha_refresh {
+  clear: both;
+  float: none;
+  width: 25%;
+}
+.cv-form .form_captcha_input input[type="button"] {
   background: url('../img/captcha.png') no-repeat left center transparent;
 }
 .cv-form .fake-file {
@@ -23,9 +28,6 @@
   padding: 0 5px;
   text-align: center;
   width: 25%;
-}
-.cv-form input[type="button"] {
-  width: 100%;
 }
 .cv-form input[type="file"] {
   display: none;
