@@ -7,23 +7,27 @@
 .cv-form label {
   color: #000000;
 }
+.cv-form .form_captcha_input input {
+  background: url('../img/captcha.png') no-repeat left center transparent;
+}
 .cv-form .fake-file,
 .cv-form input[type="button"] {
-  background: url('../img/form-btn.png') no-repeat center center transparent;
-  background-size: 100%;
+  background: #ffffff;
+  border: solid 2px #000000;
   color: #000000;
   clear: right;
   cursor: pointer;
   float: right;
-  line-height: 34px;
+  line-height: 20px;
   margin: 0 5.208333333333% /* 15/288 */ 5%;
-  min-height: 34px;
+  min-height: 20px;
+  padding: 0 5px;
   text-align: center;
-  width: 27.777777777778%;
+  width: 25%;
 }
 .cv-form input[type="file"] {
   display: none;
 }
 .cv-form input[type="submit"] {
-  clear: both;
+  clear: right;
 }
