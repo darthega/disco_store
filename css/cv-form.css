@@ -10,8 +10,7 @@
 .cv-form .form_captcha_input input {
   background: url('../img/captcha.png') no-repeat left center transparent;
 }
-.cv-form .fake-file,
-.cv-form input[type="button"] {
+.cv-form .fake-file {
   background: #ffffff;
   border: solid 2px #000000;
   color: #000000;
@@ -24,6 +23,9 @@
   padding: 0 5px;
   text-align: center;
   width: 25%;
+}
+.cv-form input[type="button"] {
+  width: 100%;
 }
 .cv-form input[type="file"] {
   display: none;
