@@ -54,7 +54,7 @@ header.main-header {
   margin-bottom: 28px;
 }
 nav ul,
-.user-nav {
+nav .user-nav {
   background: #d7c925;
   /* Old browsers */
 
@@ -90,16 +90,19 @@ nav ul,
   min-width: auto;
   padding: 0;
 }
-nav ul li {
+nav ul li,
+nav .user-nav li {
   display: inline-block;
   vertical-align: top;
   zoom: 1;
   *display: inline;
 }
-nav ul li a {
+nav ul li a,
+nav .user-nav li a {
   text-decoration: none;
 }
-nav ul li a span {
+nav ul li a span,
+nav .user-nav li a span {
   border-right: 1px solid #615B19;
   color: #FFFFFF;
   display: block;
