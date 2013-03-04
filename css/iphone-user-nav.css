@@ -18,7 +18,7 @@
   width: auto;
 }
 .inner-wrapper nav.user-nav .yellow-arrow-bk,
-.inner-wrapper nav.user-nav .yellow-arrow-fw {
+.inner-wrapper nav.user-nav .inner-wrapper nav.user-nav .yellow-arrow-fw {
   display: none;
 }
 .inner-wrapper nav.user-nav ul li:nth-child(2) a span {
