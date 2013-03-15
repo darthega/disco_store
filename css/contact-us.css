@@ -11,7 +11,7 @@
     Description:
         General style sheet for Contact-us section - Disco Store
 */
-h2 {
+h2.contact {
   color: #999999;
   font-size: 1.4em;
   margin: 0 3.125%;
