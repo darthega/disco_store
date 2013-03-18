@@ -16,9 +16,9 @@
     Author     : Daniel Ortega
     Description:
         General style sheet for Other Albums Sections Block - Disco Store
-*/
+        */
 .list-albums {
-  border-top: 2px solid #bbbbbb;
+  padding-top: 2px;
   text-align: left;
   margin: 0 3.125%;
 }

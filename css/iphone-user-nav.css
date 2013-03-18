@@ -12,18 +12,15 @@
   min-width: auto;
   padding: 0;
   width: 100%;
-
-  li a span {
-    text-align: center;
-    width: auto;
-  }
 }
-.inner-wrapper   nav.user-nav {
-  .yellow-arrow-bk, .inner-wrapper   nav.user-nav .yellow-arrow-fw{
-    display: none;
-  }
-  ul li:nth-child(2) a span{
-    display: block;
-  }
-} 
-
+.inner-wrapper nav.user-nav ul li a span {
+  text-align: center;
+  width: auto;
+}
+.inner-wrapper nav.user-nav .yellow-arrow-bk,
+.inner-wrapper nav.user-nav .inner-wrapper nav.user-nav .yellow-arrow-fw {
+  display: none;
+}
+.inner-wrapper nav.user-nav ul li:nth-child(2) a span {
+  display: block;
+}
