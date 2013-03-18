@@ -57,7 +57,7 @@ header.main-header{
 }
 
 nav{
-    
+
 }
 
 // navigation bars
@@ -107,52 +107,58 @@ nav{
         &:first-child a span {
           background: url("../img/home.png") no-repeat scroll center center transparent;
           text-indent: -5000000px;
+
         }
     }
 }
 
 .user-nav {
 //border-bottom: 2px solid #BABABA;
-    border-top: 2px solid #BABABA;
-    font-size: 13px;
-    margin: 16px @margenes 0;
-    padding: 11px 0;
+border-top: 2px solid #BABABA;
+font-size: 13px;
+margin: 16px @margenes 0;
+padding: 11px 0;
 }
 
-ul.user-nav{
-    background: #000;
-    border: 4px solid #000000;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 0 10px -5px #000000;
-    display: inline-block;
-    margin: 3.125%;
-    min-width: auto;
+.breadcrumbs{
+    border-bottom: 2px solid #BBBBBB;
+    border-top: 2px solid #BBBBBB;
+    margin: 14px @margenes 0;
     padding: 0;
-    
-    li{
-        .inline-block;
-        a{
-            color: #FFFFFF;
-            line-height: 29px;
-            text-decoration: none;
-            span{
-                border:none;
-                height:29px;
-                padding: 0px 22px;
+
+    ul.user-nav{
+        background: #000;
+        border: 4px solid #000000;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 0 10px -5px #000000;
+        display: inline-block;
+        margin: 12px 0;
+        min-width: auto;
+        padding: 0;
+
+        li{
+            .inline-block;
+            a{
+                color: #FFFFFF;
+                line-height: 29px;
+                text-decoration: none;
+                span{
+                    border:none;
+                    height:29px;
+                    padding: 0px 22px;
+                }
             }
         }
+        li.last a span{
+            .yellow-gradient;
+            display: inline-block;
+            padding: 0;
+            vertical-align: top;
+            height: 28px;
+        }
     }
-    li.last a span{
-        .yellow-gradient;
-        display: inline-block;
-        padding: 0;
-        vertical-align: top;
-        height: 28px;
-    }
+
 }
-
-
-
 
 .yellow-arrow-bk, .yellow-arrow-fw {
   background: url("../img/Yellow_arrow_menu_bk_s1.png") no-repeat scroll 0 0 transparent;
@@ -172,7 +178,7 @@ ul.user-nav{
   background: none repeat scroll 0 0 #BBB;
   border: 1px solid #999;
   border-radius: 2px;
-    margin: @margenes;
+  margin: @margenes;
 }
 
 
@@ -210,7 +216,9 @@ nav.secondary-nav {
     }
 
 }
+
  
+
 
 //bottom section 
 .bottom{
@@ -253,7 +261,9 @@ nav.secondary-nav {
         padding-top:10px;
     }
 }
+
  
+
 
 //footer
 
@@ -279,5 +289,5 @@ and (max-width : 490px);
 
     .bottom nav.secondary-nav ul li a span {
       padding:0 6%;
-    }
+  }
 }

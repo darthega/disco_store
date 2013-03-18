@@ -128,33 +128,39 @@ nav .user-nav li a span {
   margin: 16px 3.125% 0;
   padding: 11px 0;
 }
-ul.user-nav {
+.breadcrumbs {
+  border-bottom: 2px solid #BBBBBB;
+  border-top: 2px solid #BBBBBB;
+  margin: 14px 3.125% 0;
+  padding: 0;
+}
+.breadcrumbs ul.user-nav {
   background: #000;
   border: 4px solid #000000;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 0 10px -5px #000000;
   display: inline-block;
-  margin: 3.125%;
+  margin: 12px 0;
   min-width: auto;
   padding: 0;
 }
-ul.user-nav li {
+.breadcrumbs ul.user-nav li {
   display: inline-block;
   vertical-align: top;
   zoom: 1;
   *display: inline;
 }
-ul.user-nav li a {
+.breadcrumbs ul.user-nav li a {
   color: #FFFFFF;
   line-height: 29px;
   text-decoration: none;
 }
-ul.user-nav li a span {
+.breadcrumbs ul.user-nav li a span {
   border: none;
   height: 29px;
   padding: 0px 22px;
 }
-ul.user-nav li.last a span {
+.breadcrumbs ul.user-nav li.last a span {
   background: #d7c925;
   /* Old browsers */
 
