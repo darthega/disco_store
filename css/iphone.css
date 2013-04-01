@@ -115,6 +115,8 @@
 }
 .bottom nav.secondary-nav ul li {
   margin: 0;
+  min-width: 80px;
+  width: auto;
 }
 .bottom nav.secondary-nav ul li a span {
   border: none;
