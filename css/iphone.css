@@ -27,6 +27,12 @@
   /* IE6-8 */
 
 }
+.main-header nav ul {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  box-shadow: none;
+  width: 94%;
+}
 .main-header nav ul li {
   background: #d7c925;
   /* Old browsers */
@@ -62,42 +68,44 @@
   margin: 5px;
   vertical-align: top;
 }
-.main-header nav ul {
-  background: none repeat scroll 0 0 transparent;
-  border: medium none;
-  box-shadow: none;
-  width: 94%;
-}
 .inner-wrapper header.main-header {
   height: 100%;
   margin-bottom: 28px;
   max-height: 100%;
 }
-.inner-wrapper nav.user-nav ul li {
-  display: block;
-  vertical-align: top;
-}
-.inner-wrapper nav.user-nav ul {
-  background: none repeat scroll 0 0 #000000;
+.inner-wrapper .breadcrumbs ul.user-nav {
+  background: none ;
   border: none;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 0 0 10px -5px #000000;
+  border-radius: 0px;
+  box-shadow: none;
   display: block;
   margin: 0;
   min-width: auto;
   padding: 0;
   width: 100%;
 }
-.inner-wrapper nav.user-nav ul li a span {
+.inner-wrapper .breadcrumbs ul.user-nav li {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+}
+.inner-wrapper .breadcrumbs ul.user-nav li a span {
+  color: #444444;
+  padding: 0 5px 0 0;
   text-align: center;
   width: auto;
 }
-.inner-wrapper nav.user-nav .yellow-arrow-bk,
-.inner-wrapper nav.user-nav .yellow-arrow-fw {
-  display: none;
+.inner-wrapper .breadcrumbs ul.user-nav li.last a span {
+  background: none repeat scroll 0 0 transparent;
+  color: red;
+  text-decoration: underline;
 }
-.inner-wrapper nav.user-nav ul li:nth-child(2) a span {
+.inner-wrapper .breadcrumbs ul.user-nav li:nth-child(2) a span {
   display: block;
+}
+.inner-wrapper .breadcrumbs .yellow-arrow-bk,
+.inner-wrapper .breadcrumbs .yellow-arrow-fw {
+  display: none;
 }
 .bottom nav.secondary-nav {
   min-height: auto;
