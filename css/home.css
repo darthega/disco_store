@@ -1,4 +1,4 @@
-@import url(iphone.css) only screen and (max-width: 490px);
+@import url(iphone.css) only screen and (max-width: 640px);
 .yellow-gradient {
   background: #d7c925;
   /* Old browsers */
@@ -242,6 +242,7 @@ nav.secondary-nav ul li:last-child a span {
   border: 1px solid #999999;
   border-radius: 2px;
   margin: 0 3.125% 8px;
+  min-height: 60px;
 }
 nav.secondary-nav {
   display: inline-block;
@@ -280,7 +281,7 @@ footer {
 footer span {
   color: #fff;
 }
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 640px) {
   .bottom nav.secondary-nav ul li a span {
     padding: 0 6%;
   }

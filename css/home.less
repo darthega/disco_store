@@ -107,8 +107,9 @@ nav{
         &:first-child a span {
           background: url("../img/home.png") no-repeat scroll center center transparent;
           text-indent: -5000000px;
-      }
-  }
+
+        }
+    }
 }
 
 .user-nav {
@@ -158,8 +159,6 @@ padding: 11px 0;
     }
 
 }
-
-
 
 .yellow-arrow-bk, .yellow-arrow-fw {
   background: url("../img/Yellow_arrow_menu_bk_s1.png") no-repeat scroll 0 0 transparent;
@@ -218,6 +217,8 @@ nav.secondary-nav {
 
 }
 
+ 
+
 
 //bottom section 
 .bottom{
@@ -225,6 +226,7 @@ nav.secondary-nav {
   border: @border-right;
   border-radius: 2px;
   margin: 0 @margenes 8px;
+  min-height:60px;
 }
 
 
@@ -261,6 +263,8 @@ nav.secondary-nav {
     }
 }
 
+ 
+
 
 //footer
 
@@ -280,9 +284,9 @@ footer{
 
 // iphone 320 x 480 
 @import url(iphone.css) only screen 
-and (max-width : 490px);
+and (max-width : 640px);
 //for bottom nav bar 555px
-@media only screen and (max-width: 555px){
+@media only screen and (max-width: 640px){
 
     .bottom nav.secondary-nav ul li a span {
       padding:0 6%;
