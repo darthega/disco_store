@@ -36,6 +36,7 @@ nav ul li {
 .disc-internal .button {
   background: url('../img/rectangular-button.png') no-repeat center center transparent;
   background-size: 100%;
+  border: none;
   color: #ffffff;
   display: block;
   font-size: 0.85714286em;
