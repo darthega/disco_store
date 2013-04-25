@@ -126,6 +126,7 @@ nav ul li {
 .featured-album .button {
   background: url('../img/button.png') no-repeat center center transparent;
   background-size: 100%;
+  border: none;
   color: #ffffff;
   display: block;
   font-size: 0.714285714em;
