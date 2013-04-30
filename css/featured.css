@@ -208,7 +208,6 @@
             text-align: center;
           }
           .featured-album .button {
-            width: 15%;
-            margin: 2% 0 0 82%;
+            margin: 0 auto;
           }
         }
