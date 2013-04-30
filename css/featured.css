@@ -210,4 +210,29 @@
           .featured-album .button {
             margin: 0 auto;
           }
+          .content > .contact+.left-block {
+            display: block;
+            margin: 0 3.125%;
+            max-width: 90.5%;
+            padding: 1.45833%;
+            vertical-align: top;
+          }
+          form.contact-us-form {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            text-align: left;
+            vertical-align: top;
+            width: 290px;
+          }
+          form.contact-us-form input {
+            padding: 0 5%;
+          }
+          form.contact-us-form {
+            text-align: center;
+          }
+          form.contact-us-form input[type="submit"]{
+            float: none;
+            margin-bottom: 10px;
+          }
         }

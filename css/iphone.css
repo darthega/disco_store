@@ -108,6 +108,7 @@
   display: none;
 }
 .bottom nav.secondary-nav {
+  display: block;
   min-height: auto;
   min-width: 100%;
   text-align: center;
@@ -115,16 +116,16 @@
 }
 .bottom nav.secondary-nav ul li {
   margin: 0;
-  min-width: 80px;
-  width: auto;
+  /*min-width: 75px;*/
+  /*width: auto;*/
 }
 .bottom nav.secondary-nav ul li a span {
   border: none;
   color: #FFFFFF;
   display: block;
   font-size: 1em;
-  height: 45px;
-  line-height: 45px;
+  /*height: 45px;*/
+  /*line-height: 45px;*/
   padding: 0 2px;
   text-shadow: 1px 1px 0 #A78907;
 }
