@@ -162,37 +162,75 @@ nav ul li {
     margin: 2% 0 0 82%;
   }
 }
-/* Smart-phone (portrait and landscape) ----------- */
-@media only screen and (max-width: 490px) {
-  .gray-block article {
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-  }
-  .gray-block article img {
-    margin: 6px auto;
-    width: 70%;
-  }
-  .gray-block article .album-data {
-    margin: 0 auto;
-    width: 90%;
-  }
-  .gray-block article .album-data h2 {
-    font-size: 1.2em;
-  }
-  .gray-block article .album-data h2,
-  .gray-block article .album-data h3 {
-    text-align: center;
-  }
-  .gray-block aside {
-    display: none;
-  }
-  .featured-album {
-    height: 500px;
-    text-align: center;
-  }
-  .featured-album .button {
-    width: 15%;
-    margin: 2% 0 0 82%;
-  }
-}
+        /* Smart-phone (portrait and landscape) ----------- */
+        @media only screen and (max-width: 490px) {
+          .gray-block article {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+          }
+          .gray-block article img {
+            margin: 6px auto;
+            width: 70%;
+          }
+          .gray-block article .album-data {
+            margin: 0 auto;
+            width: 90%;
+          }
+          .gray-block article .album-data h2 {
+            font-size: 1.2em;
+          }
+          .gray-block article .album-data h2,
+          .gray-block article .album-data h3 {
+            text-align: center;
+          }
+          .gray-block aside {
+            border: medium none;
+            margin: 0;
+            padding: 0;
+            width: 320px;
+          }
+          .gray-block aside ul {
+            display: block;
+            list-style-position: inside;
+            margin: 0 auto;
+            padding: 0;
+            width: 300px;
+          }          
+          .gray-block aside ul li {
+            float: left;
+            list-style-image: url("../img/bullet.png");
+          }
+          .featured-album {
+            height: 700px;
+            text-align: center;
+          }
+          .featured-album .button {
+            margin: 0 auto;
+          }
+          .content > .contact+.left-block {
+            display: block;
+            margin: 0 3.125%;
+            max-width: 90.5%;
+            padding: 1.45833%;
+            vertical-align: top;
+          }
+          form.contact-us-form {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            text-align: left;
+            vertical-align: top;
+            width: 290px;
+          }
+          form.contact-us-form input {
+            padding: 0 5%;
+          }
+          form.contact-us-form {
+            text-align: center;
+          }
+          form.contact-us-form input[type="submit"]{
+            float: none;
+            margin-bottom: 10px;
+          }
+        }
