@@ -14,12 +14,12 @@
 h2.contact {
   color: #999999;
   font-size: 1.4em;
-  margin: 0 3.125%;
+  margin: 0;
   padding: 5px 0;
   text-transform: uppercase;
 }
 .left-block {
-  margin: 0 3.125%;
+  margin: 0;
   max-width: 57.5%;
   padding: 1.4583333%;
   display: inline-block;
@@ -28,7 +28,7 @@ h2.contact {
   *display: inline;
 }
 .contact-us-form {
-  margin: 0 0 3.125%;
+  margin: 0 0 0 8%;
   max-width: 30%;
   text-align: left;
   display: inline-block;
@@ -50,6 +50,14 @@ h2.contact {
   padding: 0 2%;
   min-height: 30px;
 }
+
+.form_captcha_refresh input {
+    background: url(../img/bt_refresh.png) left top no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+}
+
 .contact-us-form textarea {
   background: url('../img/area.png') no-repeat left top transparent;
   padding: 2%;
@@ -60,7 +68,7 @@ h2.contact {
   background: url('../img/form-btn.png') no-repeat center center transparent;
   background-size: 100%;
   float: right;
-  margin: 0 5.208333333333% /* 15/288 */ 0 0;
+  margin: 0 5.208333333333% /* 15/288 */ 0 0;
   min-height: 34px;
   width: 27.777777777778%;
 }

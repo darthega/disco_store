@@ -15,7 +15,6 @@
     Author     : Daniel Ortega
     Description:
         General style sheet for project Disco Store
-    Release    : 0.5
 */
 /*General styles*/
 html {
@@ -24,6 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: url("../img/bg-main.png") repeat scroll center top transparent;
 }
 nav ul li {
   display: inline-block;
@@ -36,7 +36,7 @@ nav ul li {
   background: url("../img/bg-main.png") repeat scroll center top transparent;
   display: block;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 960px;
   width: 100%;
 }
 /*Clases*/

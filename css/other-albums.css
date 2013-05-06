@@ -20,7 +20,7 @@
 .list-albums {
   padding-top: 2px;
   text-align: left;
-  margin: 0 3.125%;
+  margin: 0;
 }
 .list-albums header h2 {
   color: #999999;
@@ -55,6 +55,7 @@
   max-width: 290px;
   margin: 10px auto;
   width: 100%;
+  display: block;
 }
 .list-albums .other-album-grid:nth-child(3n+2) {
   margin: 0 0.8% 12px;

@@ -28,15 +28,14 @@ nav ul li {
   *display: inline;
 }
 .disc-internal {
-  height: 510px;
+   min-height: 290px;
 }
 .disc-internal .featured-description {
-  height: 330px;
+  max-height: 170px;
 }
 .disc-internal .button {
   background: url('../img/rectangular-button.png') no-repeat center center transparent;
   background-size: 100%;
-  border: none;
   color: #ffffff;
   display: block;
   font-size: 0.85714286em;
@@ -48,7 +47,7 @@ nav ul li {
   width: 51.226994%;
 }
 .disc-internal aside {
-  height: 364px;
+  min-height: 260px;
 }
 .list-albums.internal {
   border: none;
@@ -58,7 +57,7 @@ nav ul li {
 }
 @media only screen and (min-width: 491px) and (max-width: 768px) {
   .disc-internal {
-    height: 600px;
+    min-height: 290px;
   }
   .disc-internal article img {
     width: 40%;

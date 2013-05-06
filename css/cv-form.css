@@ -12,25 +12,30 @@
   float: none;
   width: 25%;
 }
+
+.cv-form .form_captcha_input input {
+    border-right: solid 3px black;
+}
 .cv-form .form_captcha_input input[type="button"] {
-  background: url('../img/captcha.png') no-repeat left center transparent;
+  background: url('../img/bt_refresh.png') no-repeat left center transparent;
 }
 .cv-form .fake-file {
-  background: #ffffff;
+ /* background: #ffffff;
   border: solid 2px #000000;
   color: #000000;
   clear: right;
   cursor: pointer;
   float: right;
   line-height: 20px;
-  margin: 0 5.208333333333% /* 15/288 */ 5%;
+  margin: 0 5.208333333333% /* 15/288 */ /*5%;
   min-height: 20px;
   padding: 0 5px;
-  text-align: center;
-  width: 25%;
+  text-align: center;*/
+  width: 20px;
 }
 .cv-form input[type="file"] {
-  display: none;
+background:none;
+  width: max-300px;
 }
 .cv-form input[type="submit"] {
   clear: right;
